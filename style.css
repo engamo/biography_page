@@ -31,6 +31,11 @@ p {
 	max-width: 600px;
 	color: #2b0f0f;
 }
+@media screen and (max-width: 650px) {
+	p {
+		max-width: 300px;
+	}
+}
 .about-info {
 	text-align: justify;
 }
@@ -51,9 +56,4 @@ p {
 }
 .btn:hover {
 	background-color: #e6699b;
-}
-@media screen and (max-width: 650px) {
-	p {
-		max-width: 300px;
-	}
 }
