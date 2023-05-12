@@ -52,3 +52,8 @@ p {
 .btn:hover {
 	background-color: #e6699b;
 }
+@media screen and (max-width: 650px) {
+	p {
+		max-width: 300px;
+	}
+}
